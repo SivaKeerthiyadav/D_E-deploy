@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0084)http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/index.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Expense Manager - Dashboard</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./index_files/style.css" rel="stylesheet">
+
+  <!-- Feather JS for Icons -->
+  <script src="./index_files/feather.min.js.download"></script>
+  <style>
+    .card a {
+      color: #000;
+      font-weight: 500;
+    }
+
+    .card a:hover {
+      color: #28a745;
+      text-decoration: dotted;
+    }
+  </style>
+
+<style type="text/css"><br>* {<br>  -webkit-user-select: text !important;<br>  -moz-user-select: text !important;<br>  -ms-user-select: text !important;<br>   user-select: text !important;<br>}<br></style></head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="border-right" id="sidebar-wrapper">
+      <div class="user">
+        <img class="img img-fluid rounded-circle" src="./index_files/photome.jpg" width="120">
+        <h5>Thattukolla Keerthi</h5>
+        <p>siva@123</p>
+      </div>
+      <div class="sidebar-heading">Management</div>
+      <div class="list-group list-group-flush">
+        <a href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/index.php" class="list-group-item list-group-item-action sidebar-active"><span data-feather="home"></span> Dashboard</a>
+        <a href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/add_expense.php" class="list-group-item list-group-item-action "><span data-feather="plus-square"></span> Add Expenses</a>
+        <a href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/manage_expense.php" class="list-group-item list-group-item-action sidebar-active"><span>₹</span> Manage Expenses</a>
+      </div>
+      <div class="sidebar-heading">Settings </div>
+      <div class="list-group list-group-flush">
+        <a href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/profile.php" class="list-group-item list-group-item-action "><span data-feather="user"></span> Profile</a>
+        <a href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/logout.php" class="list-group-item list-group-item-action "><span data-feather="power"></span> Logout</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light  border-bottom">
+
+
+        <button class="toggler" type="button" id="menu-toggle" aria-expanded="false">
+          <span data-feather="menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/index.php#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img class="img img-fluid rounded-circle" src="./index_files/photome.jpg" width="25">
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/profile.php">Your Profile</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/logout.php">Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <h3 class="mt-4">Dashboard</h3>
+        <div class="row">
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col text-center">
+                    <a href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/add_expense.php"><img src="./index_files/addex.png" width="57px">
+                      <p>Add Expenses</p>
+                    </a>
+                  </div>
+                  <div class="col text-center">
+                    <a href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/manage_expense.php"><img src="./index_files/maex.png" width="57px">
+                      <p>Manage Expenses</p>
+                    </a>
+                  </div>
+                  <div class="col text-center">
+                    <a href="http://localhost/Daily%20Expense%20Management%20System/DailyExpense-System/profile.php"><img src="./index_files/prof.png" width="57px">
+                      <p>User Profile</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      
+     
+
+ <div class="container-fluid">
+        <h3 class="mt-4 text-center">Full-Expense Report</h3>
+        <hr>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr class="text-center">
+                            <th>S.I</th>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>Expense Category</th>
+                        </tr>
+                    </thead>
+                                        <tbody><tr>
+                        <td>1</td>
+                        <td> 2024-07-20</td>
+                        <td>₹ 30</td>
+                        <td>Food</td>
+                    </tr>
+                                        <tr>
+                        <td colspan="2" class="text-right"><strong>Total:</strong></td>
+                        <td colspan="2">₹ 30</td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+    </div>
+      </div>
+    </div>   
+    <!-- /#page-content-wrapper -->
+  </div>
+  <!-- /#wrapper --> 
+
+   
+
+
+<script type="text/javascript" src="chrome-extension://fpjppnhnpnknbenelmbnidjbolhandnf/content_script_web_accessible/ecp_regular.js"></script></body></html>
